@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* optional theme customizations */
+@layer base {
+    :root {
+        --font-sans: "Instrument Sans", ui-sans-serif, system-ui, sans-serif;
+    }
+}
