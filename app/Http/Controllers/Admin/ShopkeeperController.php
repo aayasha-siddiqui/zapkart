@@ -11,7 +11,7 @@ use App\Models\User;
 use Illuminate\Support\Facades\Hash;
 
 class ShopkeeperController extends Controller
-{
+{   
     // =========================
     // ADMIN: SHOPKEEPER OVERVIEW
     // =========================

@@ -112,7 +112,11 @@
             </p>
 
             {{-- ================= ACTION BUTTONS ================= --}}
-            @if(auth()->check() && in_array(auth()->user()->role, ['user','shopkeeper']))
+            @if(auth()->check() && in_array(auth()->user()->role, ['user',
+                'seller',
+                'supplier',
+                'driver',
+                'shopkeeper']))
                 <div class="mt-4 flex gap-2">
 
                     @if($stock > 0)

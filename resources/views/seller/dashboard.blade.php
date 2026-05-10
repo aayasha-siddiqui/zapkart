@@ -29,9 +29,9 @@
     </div>
 
     <!-- CHART (SMALL & CENTERED) -->
-    <div class="bg-white rounded-2xl shadow p-4 w-[260px] mx-auto mb-12">
-        <canvas id="orderChart" height="220"></canvas>
-    </div>
+    <!-- <div class="bg-white rounded-2xl shadow p-4 w-[260px] mx-auto mb-12">
+        <canvas id="orderChart" height="30"></canvas>
+    </div> -->
 
     <!-- PRODUCTS -->
     <h2 class="section-title">My Products</h2>

@@ -64,7 +64,7 @@
     <h2 class="text-lg font-bold text-[#5a3e36] mb-4">
         Monthly Earnings
     </h2>
-    <canvas id="salesChart" height="100"></canvas>
+    <canvas id="salesChart" height="30"></canvas>
 </div>
 
 {{-- ================= PRODUCTS ================= --}}

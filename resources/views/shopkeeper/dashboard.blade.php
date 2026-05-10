@@ -98,7 +98,7 @@
     </div>
 
     {{-- SMALL ANALYTICS --}}
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="grid grid-cols-3 md:grid-cols-4 gap-6">
 
         {{-- MINI CHART --}}
         <div class="bg-white p-4 rounded-xl shadow">

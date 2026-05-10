@@ -144,13 +144,13 @@
         <li><a href="#" class="hover:text-mitti-light transition">Contact</a></li>
        @if(auth()->check())
 
-    @if(auth()->user()->role === 'user')
+    <!-- @if(auth()->user()->role === 'user') -->
        <li> <a href="/become-seller"
            class="hover:text-mitti-light transition">
             Become a Seller
         </a></li>
     
-    @endif
+    <!-- @endif -->
 
     @if(auth()->user()->role === 'seller')
        <li> <a href="/seller/dashboard"
